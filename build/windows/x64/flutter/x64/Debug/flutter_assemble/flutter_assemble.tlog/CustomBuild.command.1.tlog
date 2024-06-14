@@ -1,0 +1,28 @@
+^C:\USERS\ASUS\DESKTOP\SOFTWARESTUD\SSFINAL\SOFTWARESTUDIOFINAL\BUILD\WINDOWS\X64\CMAKEFILES\61014383377FBA0A6907F62E3AB0183C\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env "FLUTTER_ROOT=D:\kuliah aaaaaaaaa\I2P\Software Studios\flutter" PROJECT_DIR=C:\Users\asus\Desktop\SoftwareStud\SSFinal\SoftwareStudioFinal "FLUTTER_ROOT=D:\kuliah aaaaaaaaa\I2P\Software Studios\flutter" FLUTTER_EPHEMERAL_DIR=C:\Users\asus\Desktop\SoftwareStud\SSFinal\SoftwareStudioFinal\windows\flutter\ephemeral PROJECT_DIR=C:\Users\asus\Desktop\SoftwareStud\SSFinal\SoftwareStudioFinal FLUTTER_TARGET=C:\Users\asus\Desktop\SoftwareStud\SSFinal\SoftwareStudioFinal\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9hNWMyNGY1MzhkMDVhYWY2NmY3OTcyZmIyMzk1OWQ4Y2FmYjlmOTVhLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\asus\Desktop\SoftwareStud\SSFinal\SoftwareStudioFinal\.dart_tool\package_config.json "D:/kuliah aaaaaaaaa/I2P/Software Studios/flutter/packages/flutter_tools/bin/tool_backend.bat" windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ASUS\DESKTOP\SOFTWARESTUD\SSFINAL\SOFTWARESTUDIOFINAL\BUILD\WINDOWS\X64\CMAKEFILES\CD449D2E7116B699F4FED7CC5CBE833C\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ASUS\DESKTOP\SOFTWARESTUD\SSFINAL\SOFTWARESTUDIOFINAL\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/asus/Desktop/SoftwareStud/SSFinal/SoftwareStudioFinal/windows -BC:/Users/asus/Desktop/SoftwareStud/SSFinal/SoftwareStudioFinal/build/windows/x64 --check-stamp-file C:/Users/asus/Desktop/SoftwareStud/SSFinal/SoftwareStudioFinal/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
